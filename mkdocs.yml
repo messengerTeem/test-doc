@@ -1,0 +1,21 @@
+site_name: play_space
+
+nav:
+ - Home: index.md
+ - About: about.md
+ - Wreath Products: 
+   - Readme: wreath_product/README.md
+
+theme: readthedocs
+
+markdown_extensions:
+  - toc:
+      permalink: "#"
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
