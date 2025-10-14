@@ -6,10 +6,9 @@ build:
     python: "3"
 
 
-jobs:
-  pre_install:
-    - pip install mkdocs
-    - pip install pymdown-extensions
+python:
+   install:
+   - requirements: requirements.txt
 
 mkdocs:
   configuration: mkdocs.yml
